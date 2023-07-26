@@ -29,5 +29,8 @@ while not game_over:
                 x1_change = -10
                 y1_change = 0
 
+    x1 = x1 + x1_change
+    y1 = y1 + y1_change
+
     pygame.draw.rect(window, white, [x1, y1, 10, 10])
     pygame.display.update()
