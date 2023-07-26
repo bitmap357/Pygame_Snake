@@ -12,8 +12,8 @@ white = (255, 255, 255)
 
 game_over = False
 
-x1 = 400
-y1 = 300
+x1 = window_width / 2
+y1 = window_height / 2
 
 while not game_over:
     for event in pygame.event.get():
