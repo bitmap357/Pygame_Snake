@@ -9,6 +9,7 @@ window = pygame.display.set_mode((window_width, window_height))
 pygame.display.set_caption("Snake Game")
 
 white = (255, 255, 255)
+black = (0, 0, 0)
 
 game_over = False
 
@@ -31,6 +32,7 @@ while not game_over:
 
     x1 = x1 + x1_change
     y1 = y1 + y1_change
+    window.fill(black)
 
     pygame.draw.rect(window, white, [x1, y1, 10, 10])
     pygame.display.update()
