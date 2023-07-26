@@ -21,6 +21,11 @@ y1 = window_height / 2
 x1_change = 0
 y1_change = 0
 
+foodx = round(random.randrange(0, window_width - 10) / 10) * 10.0
+foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
+
+
+
 clock = pygame.time.Clock()
 
 while not game_over:
