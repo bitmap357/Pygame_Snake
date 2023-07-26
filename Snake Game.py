@@ -54,8 +54,10 @@ while not game_over:
     if x1 >= window_width or x1 < 0 or y1 >= window_height or y1 < 0:
         game_over = True
 
-
     window.fill(black)
+    if x1 == foodx and y1 == foody:
+        foodx = round(random.randrange(0, window_width - 10) / 10) * 10.0
+        foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
 
     pygame.draw.rect(window, red, [foodx, foody, 10, 10])
     pygame.draw.rect(window, white, [x1, y1, 10, 10])
