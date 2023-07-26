@@ -12,10 +12,13 @@ white = (255, 255, 255)
 
 game_over = False
 
+x1 = 400
+y1 = 300
+
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game_over = True
 
-    pygame.draw.rect(window, white, [400, 300, 10, 10])
+    pygame.draw.rect(window, white, [x1, y1, 10, 10])
     pygame.display.update()
