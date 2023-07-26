@@ -17,4 +17,4 @@ while not game_over:
         if event.type == pygame.QUIT:
             game_over = True
 
-    pygame.draw.rect(window, )
+    pygame.draw.rect(window, white, [400, 300, 10, 10])
