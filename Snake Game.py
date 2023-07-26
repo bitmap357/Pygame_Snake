@@ -15,6 +15,9 @@ game_over = False
 x1 = window_width / 2
 y1 = window_height / 2
 
+x1_change = 0
+y1_change = 0
+
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
