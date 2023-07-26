@@ -61,6 +61,8 @@ while not game_over:
     if x1 == foodx and y1 == foody:
         foodx = round(random.randrange(0, window_width - 10) / 10) * 10.0
         foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
+        length_of_snake += 1
+        score += 1
 
     pygame.draw.rect(window, red, [foodx, foody, 10, 10])
     pygame.draw.rect(window, white, [x1, y1, 10, 10])
