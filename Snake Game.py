@@ -20,5 +20,11 @@ while not game_over:
         if event.type == pygame.QUIT:
             game_over = True
 
+        # Check for arrow keys pressed
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_LEFT:
+                x1_change = -10
+                y1_change = 0
+
     pygame.draw.rect(window, white, [x1, y1, 10, 10])
     pygame.display.update()
