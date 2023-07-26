@@ -32,6 +32,13 @@ while not game_over:
             elif event.key == pygame.K_RIGHT:
                 x1_change = 10
                 y1_change = 0
+            elif event.key == pygame.K_UP:
+                x1_change = 0
+                y1_change = -10
+            elif event.key == pygame.K_DOWN:
+                x1_change = 0
+                y1_change = 10
+
 
     x1 = x1 + x1_change
     y1 = y1 + y1_change
