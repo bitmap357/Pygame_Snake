@@ -57,7 +57,7 @@ while not game_over:
 
     window.fill(black)
 
-    pygame.draw.rect(window, red, [400, 300, 10, 10])
+    pygame.draw.rect(window, red, [foodx, foody, 10, 10])
     pygame.draw.rect(window, white, [x1, y1, 10, 10])
     pygame.display.update()
     clock.tick(30)
