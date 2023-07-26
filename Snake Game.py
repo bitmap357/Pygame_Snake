@@ -19,6 +19,8 @@ y1 = window_height / 2
 x1_change = 0
 y1_change = 0
 
+clock = pygame.time.Clock()
+
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
