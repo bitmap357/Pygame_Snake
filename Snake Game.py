@@ -18,3 +18,4 @@ while not game_over:
             game_over = True
 
     pygame.draw.rect(window, white, [400, 300, 10, 10])
+    pygame.display.update()
