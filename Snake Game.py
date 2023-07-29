@@ -32,6 +32,7 @@ y1_change = 0
 snake_body = []
 length_of_snake = 1
 
+# Setting points for the food
 foodx = round(random.randrange(0, window_width - 10) / 10) * 10.0
 foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
 
