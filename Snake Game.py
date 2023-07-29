@@ -1,3 +1,4 @@
+# imports
 import pygame
 import random
 
@@ -86,4 +87,4 @@ while not game_over:
     for segment in snake_body:
         pygame.draw.rect(window, white, [segment[0], segment[1], 10, 10])
     pygame.display.update()
-    clock.tick(30)
+    clock.tick(10)
