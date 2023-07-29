@@ -37,6 +37,7 @@ foodx = round(random.randrange(0, window_width - 10) / 10) * 10.0
 foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
 
 
+# clock for the game
 clock = pygame.time.Clock()
 
 while not game_over:
