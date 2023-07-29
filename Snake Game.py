@@ -28,6 +28,7 @@ y1 = window_height / 2
 x1_change = 0
 y1_change = 0
 
+# growing the body of the snake
 snake_body = []
 length_of_snake = 1
 
