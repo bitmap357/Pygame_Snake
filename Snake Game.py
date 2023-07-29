@@ -42,6 +42,7 @@ clock = pygame.time.Clock()
 
 # the main game loop
 while not game_over:
+    # when the game quits
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game_over = True
