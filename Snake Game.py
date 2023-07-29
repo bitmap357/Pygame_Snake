@@ -24,6 +24,7 @@ score = 0
 x1 = window_width / 2
 y1 = window_height / 2
 
+# movement of the snake
 x1_change = 0
 y1_change = 0
 
