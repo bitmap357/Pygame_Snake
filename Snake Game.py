@@ -40,6 +40,7 @@ foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
 # clock for the game
 clock = pygame.time.Clock()
 
+# the main game loop
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
