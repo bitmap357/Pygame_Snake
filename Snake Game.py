@@ -20,6 +20,7 @@ red = (255, 0, 0)
 game_over = False
 score = 0
 
+# setting the starting point of the snake
 x1 = window_width / 2
 y1 = window_height / 2
 
