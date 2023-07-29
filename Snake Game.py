@@ -62,6 +62,7 @@ while not game_over:
                 x1_change = 0
                 y1_change = 10
 
+    # Adding changes to original position
     x1 = x1 + x1_change
     y1 = y1 + y1_change
 
