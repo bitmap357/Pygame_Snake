@@ -73,6 +73,7 @@ while not game_over:
     # Creating the movement of the snake
     window.fill(black)
 
+    # Creating the body of the snake
     snake_head = []
     snake_head.append(x1)
     snake_head.append(y1)
