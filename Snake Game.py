@@ -70,6 +70,7 @@ while not game_over:
     if x1 >= window_width or x1 < 0 or y1 >= window_height or y1 < 0:
         game_over = True
 
+    # Creating the movement of the snake
     window.fill(black)
 
     snake_head = []
