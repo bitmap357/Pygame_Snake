@@ -78,6 +78,7 @@ while not game_over:
     snake_head.append(x1)
     snake_head.append(y1)
 
+    # Adding the extra parts to the body
     snake_body.append(snake_head)
 
     if len(snake_body) > length_of_snake:
