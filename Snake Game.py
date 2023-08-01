@@ -66,6 +66,7 @@ while not game_over:
     x1 = x1 + x1_change
     y1 = y1 + y1_change
 
+    # Creating boundaries for the game
     if x1 >= window_width or x1 < 0 or y1 >= window_height or y1 < 0:
         game_over = True
 
