@@ -81,6 +81,7 @@ while not game_over:
     # Adding the extra parts to the body
     snake_body.append(snake_head)
 
+    # Keeping the body as a body
     if len(snake_body) > length_of_snake:
         del snake_body[0]
 
