@@ -95,6 +95,7 @@ while not game_over:
     score_text = font_style.render("Score: " + str(score), True, white)
     window.blit(score_text, (10, 10))
 
+    # Adding the food item and also making the snake longer when the food is picked
     if x1 == foodx and y1 == foody:
         foodx = round(random.randrange(0, window_width - 10) / 10) * 10.0
         foody = round(random.randrange(0, window_height - 10) / 10) * 10.0
