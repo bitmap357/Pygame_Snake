@@ -90,6 +90,7 @@ while not game_over:
         if segment == snake_head:
             game_over = True
 
+    # Setting the font and displaying the score value
     font_style = pygame.font.SysFont(None, 50)
     score_text = font_style.render("Score: " + str(score), True, white)
     window.blit(score_text, (10, 10))
