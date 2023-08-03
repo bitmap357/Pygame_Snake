@@ -102,6 +102,7 @@ while not game_over:
         length_of_snake += 1
         score += 1
 
+    # Food items
     pygame.draw.rect(window, red, [foodx, foody, 10, 10])
     for segment in snake_body:
         pygame.draw.rect(window, white, [segment[0], segment[1], 10, 10])
