@@ -85,6 +85,7 @@ while not game_over:
     if len(snake_body) > length_of_snake:
         del snake_body[0]
 
+    # Adding a condition for the game to be over
     for segment in snake_body[:-1]:
         if segment == snake_head:
             game_over = True
